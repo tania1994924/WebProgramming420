@@ -1,0 +1,22 @@
+{
+  "name": "webprogramming420",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tania1994924/WebProgramming420.git"
+  },
+  "keywords": [
+    "project"
+  ],
+  "author": "Tania and Harun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tania1994924/WebProgramming420/issues"
+  },
+  "homepage": "https://github.com/tania1994924/WebProgramming420#readme"
+}

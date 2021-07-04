@@ -26,7 +26,9 @@ export default function Place(props) {
             <div className="row">
             <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src={places2} alt="alternative"/>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3FM1waTeTDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                     </div> 
                 </div>
                 <div class="col-lg-6">

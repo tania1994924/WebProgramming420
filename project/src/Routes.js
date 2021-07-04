@@ -1,14 +1,17 @@
 import {Switch, Route} from "react-router-dom";
 
-import Home from "./Components/Nav";
-
+import Nav from "./Components/Nav";
+import Home from "./Components/Home";
+import Footer from "./Components/Footer";
 
 export default function Routes() {
   return (
     <>
     <Switch>
       <Route exact path="/">
-        <Home />
+        <Nav />
+        <Home/>
+        <Footer/>
       </Route>
      
     </Switch>

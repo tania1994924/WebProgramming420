@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './static/css/bootstrap.css';
+
+import './static/css/fontawesome-all.css';
+import './static/css/swiper.css';
+import './static/css/magnific-popup.css';
+import './static/css/styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

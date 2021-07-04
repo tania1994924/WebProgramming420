@@ -19,7 +19,7 @@ export default function Nav(props) {
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" href="index.html">HOME <span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link page-scroll" to="/">HOME <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link page-scroll" to="/plan">PLAN</Link>
@@ -28,13 +28,13 @@ export default function Nav(props) {
                     <Link className="nav-link page-scroll" href="stay.html">STAY</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" href="places.html">Places</Link>
+                    <Link className="nav-link page-scroll" to="/places">Places</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" href="experience.html">Experiences</Link>
+                    <Link className="nav-link page-scroll" to="/experience">Experiences</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" href="contact.html">CONTACT</Link>
+                    <Link className="nav-link page-scroll" to="/contact">CONTACT</Link>
                 </li>
             </ul>
             <span className="nav-item social-icons">

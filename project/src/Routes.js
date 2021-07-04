@@ -4,7 +4,9 @@ import Nav from "./Components/Nav";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Plan from "./Components/Plan";
-
+import Place from "./Components/Places";
+import Experience from "./Components/Experience";
+import Contact from "./Components/Contact";
 export default function Routes() {
   return (
     <>
@@ -26,17 +28,17 @@ export default function Routes() {
       </Route>
       <Route exact path="/places">
       <Nav />
-        <Home/>
+        <Place/>
         <Footer/>
       </Route>
       <Route exact path="/experience">
       <Nav />
-        <Home/>
+        <Experience/>
         <Footer/>
       </Route>
       <Route exact path="/contact">
       <Nav />
-        <Home/>
+        <Contact/>
         <Footer/>
       </Route>
 

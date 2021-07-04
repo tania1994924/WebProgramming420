@@ -22,7 +22,7 @@ export default function Nav(props) {
                     <Link className="nav-link page-scroll" href="index.html">HOME <span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" href="plan.html">PLAN</Link>
+                    <Link className="nav-link page-scroll" to="/plan">PLAN</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link page-scroll" href="stay.html">STAY</Link>

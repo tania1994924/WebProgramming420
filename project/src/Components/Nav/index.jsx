@@ -34,7 +34,7 @@ export default function Nav(props) {
                     <Link className="nav-link page-scroll" to="/experience">Experiences</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link page-scroll" to="/contact">CONTACT</Link>
+                    <Link className="nav-link page-scroll" to="/gallery">Gallery</Link>
                 </li>
             </ul>
             <span className="nav-item social-icons">

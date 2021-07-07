@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import Plan from "./Components/Plan";
 import Place from "./Components/Places";
 import Experience from "./Components/Experience";
-import Contact from "./Components/Contact";
+import Gallery from "./Components/Gallery";
 export default function Routes() {
   return (
     <>
@@ -36,9 +36,9 @@ export default function Routes() {
         <Experience/>
         <Footer/>
       </Route>
-      <Route exact path="/contact">
+      <Route exact path="/gallery">
       <Nav />
-        <Contact/>
+        <Gallery/>
         <Footer/>
       </Route>
 

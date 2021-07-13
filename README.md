@@ -9,6 +9,7 @@ Steps
   id (primary,autoincrement)
   image (varchar)
 3- Create a folder uploads in server folder
+4- run command npm install cors multer mysql nodemon in server folder
 
 Alternate for table: run this sql after step 1
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
